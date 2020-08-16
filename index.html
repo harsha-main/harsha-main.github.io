@@ -2,11 +2,18 @@
 <html>
 <body>
 
-<audio controls = "controls" 
-autoplay = "true"> 
-  <source src="ting.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+<p>Click the button to display the URL of the document.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.URL;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 
 </body>
 </html>
