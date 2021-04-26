@@ -8,26 +8,57 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                1,
+                2
             ]
         }
     ],
     "nodes" : [
         {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
             "mesh" : 0,
-            "name" : "Plane",
+            "name" : "tex",
             "rotation" : [
                 0,
-                -0.7934608459472656,
+                0.7071068286895752,
                 0,
-                -0.6086212992668152
+                0.7071068286895752
             ]
         }
     ],
     "materials" : [
         {
+            "alphaMode" : "BLEND",
             "doubleSided" : true,
-            "name" : "Material.001",
+            "name" : "tex",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -39,7 +70,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane",
+            "name" : "tex",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,14 +103,14 @@
             "componentType" : 5126,
             "count" : 4,
             "max" : [
-                1,
+                0.5,
                 0,
-                1
+                0.5
             ],
             "min" : [
-                -1,
+                -0.5,
                 0,
-                -1
+                -0.5
             ],
             "type" : "VEC3"
         },
@@ -127,7 +158,9 @@
     "samplers" : [
         {
             "magFilter" : 9729,
-            "minFilter" : 9987
+            "minFilter" : 9987,
+            "wrapS" : 33071,
+            "wrapT" : 33071
         }
     ],
     "buffers" : [
