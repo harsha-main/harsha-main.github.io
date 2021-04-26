@@ -8,7 +8,8 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                1
             ]
         }
     ],
@@ -17,10 +18,24 @@
             "mesh" : 0,
             "name" : "tex",
             "rotation" : [
-                0.3787133991718292,
-                0.5234851837158203,
-                -0.20900139212608337,
-                0.7340694665908813
+                0.5,
+                0.5,
+                -0.5,
+                0.5
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cube",
+            "scale" : [
+                0.0031213134061545134,
+                0.0031213134061545134,
+                0.0031213134061545134
+            ],
+            "translation" : [
+                0.3999011218547821,
+                0.0030526798218488693,
+                0
             ]
         }
     ],
@@ -50,6 +65,19 @@
                     },
                     "indices" : 3,
                     "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7
                 }
             ]
         }
@@ -101,6 +129,40 @@
             "componentType" : 5123,
             "count" : 6,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -123,6 +185,26 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 428
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 716
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 908
         }
     ],
     "samplers" : [
@@ -135,7 +217,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 140,
+            "byteLength" : 980,
             "uri" : "floor_card.bin"
         }
     ]
