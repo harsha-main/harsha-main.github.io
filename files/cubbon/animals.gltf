@@ -118,48 +118,17 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 2,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "GiraffeAction",
-            "samplers" : [
-                {
-                    "input" : 24,
-                    "interpolation" : "LINEAR",
-                    "output" : 25
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
                         "node" : 3,
                         "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 3,
-                        "path" : "rotation"
                     }
                 }
             ],
             "name" : "tigerAction",
             "samplers" : [
                 {
-                    "input" : 26,
+                    "input" : 24,
                     "interpolation" : "LINEAR",
-                    "output" : 27
-                },
-                {
-                    "input" : 28,
-                    "interpolation" : "LINEAR",
-                    "output" : 29
+                    "output" : 25
                 }
             ]
         }
@@ -551,24 +520,6 @@
         {
             "bufferView" : 24,
             "componentType" : 5126,
-            "count" : 169,
-            "max" : [
-                11.5
-            ],
-            "min" : [
-                5.9
-            ],
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 25,
-            "componentType" : 5126,
-            "count" : 169,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 26,
-            "componentType" : 5126,
             "count" : 149,
             "max" : [
                 4.966666666666667
@@ -579,28 +530,10 @@
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 27,
+            "bufferView" : 25,
             "componentType" : 5126,
             "count" : 149,
             "type" : "VEC3"
-        },
-        {
-            "bufferView" : 28,
-            "componentType" : 5126,
-            "count" : 190,
-            "max" : [
-                11.3
-            ],
-            "min" : [
-                5
-            ],
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 29,
-            "componentType" : 5126,
-            "count" : 190,
-            "type" : "VEC4"
         }
     ],
     "bufferViews" : [
@@ -726,33 +659,13 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 676,
+            "byteLength" : 596,
             "byteOffset" : 256180
         },
         {
             "buffer" : 0,
-            "byteLength" : 2028,
-            "byteOffset" : 256856
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 596,
-            "byteOffset" : 258884
-        },
-        {
-            "buffer" : 0,
             "byteLength" : 1788,
-            "byteOffset" : 259480
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 760,
-            "byteOffset" : 261268
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3040,
-            "byteOffset" : 262028
+            "byteOffset" : 256776
         }
     ],
     "samplers" : [
@@ -763,7 +676,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 265068,
+            "byteLength" : 258564,
             "uri" : "animals.bin"
         }
     ]
