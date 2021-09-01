@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="burj_purple_target.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="Tour dubai" onclick="one()" title="Tour dubai" coords="442,1442,345,1343" shape="rect">
+    <area target="" alt="Travel" onclick="two()" title="Travel" coords="758,1122,618,1201" shape="rect">
+    <area target="" alt="Gallery" onclick="three()" title="Gallery" coords="788,280,618,120" shape="rect">
+</map>
+ <script>
+       function one() {
+    	 alert ("one!");
+         }
+       function two() {
+    	 alert ("two!");
+         }
+         function three() {
+         show_image("https://www.kindpng.com/picc/m/184-1844102_fireworks-firecracker-clip-art-transparent-firecracker-gif-hd.png",400,400,"logo"); 
+         }
+         function show_image(src, width, height, alt) {
+	    var img = document.createElement("img");
+    		img.src = src;
+    		img.width = width;
+	        img.height = height;
+    		img.alt = alt;
+		img.style.position = "absolute";
+		img.style.left = '400px';
+		img.style.top = '160px';
+
+    // This next line will just add it to the <body> tag
+      document.body.appendChild(img);
+     }
+
+      </script>
+</body>
+</html>
+
