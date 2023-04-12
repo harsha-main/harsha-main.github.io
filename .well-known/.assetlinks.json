@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.srilaprabhupadalila",
+    "sha256_cert_fingerprints":
+    ["C3:E8:5D:A6:CF:72:81:79:77:59:9F:B7:4F:E7:59:A7:CF:55:E9:97:4C:31:2B:7F:F9:3A:9D:50:A1:83:20:9D"]
+  }
+}]
